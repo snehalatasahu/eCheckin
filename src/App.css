@@ -1,38 +1,213 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800;900&display=swap');
+
+body{
+ overflow-x: hidden;
+}
+.strategy-section-bg-graphics-section{
+  position: relative;
+  /* background-image: url('./Assets/strategy-section-bg.png');
+  background-repeat: no-repeat;
+  background-position: right; */
+  float: right;
+  margin-right: 0%;
+  padding-right: 0%;
+  z-index: 1;
+  height: 200px;
+  width: 200px;
+}
+.strategy-container{
+  position: relative;
+  z-index: 2;
+}
+
+.header{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-image{
+  width: 90%;
+  /* margin-left: 17px; */
+  margin-right: auto;
+}
+
+.services-header-img-section{
+  width: 97%;
+  margin-right: auto;
+}
+
+.services-container, .contact-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.strategy-section{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar{
+  background-color: white;
+  box-shadow: 0px 8px 8px -6px rgba(0,0,0,.25);
+
+
+}
+
+.strategy-card{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.strategy-card-icon-section{
+  padding-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.footer-section{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #303669;
+  width: 100vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-container{
+  padding-top: 50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navitem{
+
+padding-left: 20%;
+  
+}
+.navbrand{
+  font-size: 3em;
+  font-weight: 900;
+  padding-right: 20px;
+}
+
+.navtxt{
+  font-family: 'Poppins', sans-serif;
+  padding-left: 20px;
+  margin-top: 25px;
+  font-weight: 400;
+  color:black;
+}
+
+.btn-custom{
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  background-color: rgb(10, 130, 228);
+  height: 50px;
+  width: 130px;
+  color: white;
+  font-weight: 400;
+  border-radius: 5em;
+  font-size: large;
+  border: none;
+}
+
+.btn-custom:hover{
+  background-color: rgb(253, 81, 138);
+}
+
+.subtitle{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em
+}
+
+.bold-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 4em;
+  font-weight: 900;
+  padding-right: 20px;
+
+  color: rgb(10, 56, 141);
+
+}
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  padding-right: 20px;
+
+  color: rgb(10, 56, 141);
+}
+.title-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.body-btn{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  background-color: rgb(253, 81, 138) ;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-weight: 400;
+  border-radius: 6em;
+  font-size: large;
+  border: none;
+}
+
+.body-btn:hover{
+  background-color: rgb(10, 130, 228);
+}
+
+.headertext{
+  padding-top: 50px;
+}
+
+.btn-services{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  background-color: rgb(10, 130, 228);
+  height: 50px;
+  width: 300px;
+  color: white;
+  font-weight: 400;
+  border-radius: 5em;
+  font-size: large;
+  border: none;
+  text-align: left;
+  transition: 0.5s;
+}
+
+.btn-services:hover{
+  background-color: rgb(129, 173, 209);
+}
+
+.strategy-card-icon-section{
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+
+.owl-obj
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100px;
+  width: 130px;
+}
+.owl-obj img
+{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.cards{
+  width: 20rem;
+  border-radius: 2em;
+  box-shadow: 0px 0px 20px 6px rgba(0,0,0,.05);
+
+}
+
+.cards:hover{
+  box-shadow: 0px 0px 15px 8px rgba(0,0,0,.10);
 }
