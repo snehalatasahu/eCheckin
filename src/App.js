@@ -7,10 +7,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const App = () => {
   return (
-    <Router>
-      
-      <Switch>
-      <Route exact path="/" component={Home} />
+    <Router basename={process.env.PUBLIC_URL}>
+     <Switch>
+        <Route exact path="/" component={Home} />
         <Route exact path="/howitworks" component={HowItWorks} />
       </Switch>
     </Router>

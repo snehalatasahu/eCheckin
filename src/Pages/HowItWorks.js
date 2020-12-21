@@ -13,7 +13,6 @@ import SecNavbar from "../Components/HowItWorks/SecNavbar";
 const HowItWorks = () => {
   return (
     <Fragment>
-      <NavBar />
       <SecNavbar />
       <Header />
       <StrategySection />

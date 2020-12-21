@@ -6,7 +6,7 @@ const NavBar = () => {
     <Navbar collapseOnSelect expand="lg" className='navbar' sticky='top'>
       <Row className="navitem">
         <Col>
-          <Navbar.Brand href="#home"><h1 className='navbrand'>code.</h1></Navbar.Brand>
+          <Navbar.Brand href="/"><h1 className='navbrand'>code.</h1></Navbar.Brand>
         </Col>
         <Col>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
