@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 
 import header from "../../Assets/header.png";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -16,7 +17,9 @@ const Header = () => {
 						<h1 className="bold-title">Beautifully simple, code.</h1>
 						<p className="title-text">Codelander is a beautifully simple, clean and lightweight landing page template for all types of businesses, with bold and bright colours.</p>
 						<div>
-                        <button className='body-btn'  href="#pricing">Learn More</button>
+                        <Link to={'/howitworks'}>
+                        <button className='body-btn'>How it Works</button>
+                        </Link>
 						</div>
                     </div>
                 </Col>
