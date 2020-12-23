@@ -11,7 +11,7 @@ const Footer = () => {
             <Row className="footer-container">
                 <Col md={2} s={12}></Col>
                 <Col md={2} s={12}>
-                    <h1 style={{color: "white"}} className='bold-title'>eCheckin</h1>
+                    <h1 style={{color: "white"}} className='title'>eCheckin</h1>
                     <p className="footer-susection-text">A beautiful landing page template by Codefest.</p>
                 </Col>
                 <Col md={2} s={12}>
