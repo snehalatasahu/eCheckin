@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/eCheckin/static/css/main.1be3d1f9.chunk.css",
-    "main.js": "/eCheckin/static/js/main.f7a1f391.chunk.js",
-    "main.js.map": "/eCheckin/static/js/main.f7a1f391.chunk.js.map",
-    "runtime-main.js": "/eCheckin/static/js/runtime-main.45926f33.js",
-    "runtime-main.js.map": "/eCheckin/static/js/runtime-main.45926f33.js.map",
+    "main.js": "/eCheckin/static/js/main.456c6fb3.chunk.js",
+    "main.js.map": "/eCheckin/static/js/main.456c6fb3.chunk.js.map",
+    "runtime-main.js": "/eCheckin/static/js/runtime-main.a1d6e31e.js",
+    "runtime-main.js.map": "/eCheckin/static/js/runtime-main.a1d6e31e.js.map",
     "static/css/2.3550b0aa.chunk.css": "/eCheckin/static/css/2.3550b0aa.chunk.css",
-    "static/js/2.ccd0d6d9.chunk.js": "/eCheckin/static/js/2.ccd0d6d9.chunk.js",
-    "static/js/2.ccd0d6d9.chunk.js.map": "/eCheckin/static/js/2.ccd0d6d9.chunk.js.map",
-    "static/js/3.22b6a46b.chunk.js": "/eCheckin/static/js/3.22b6a46b.chunk.js",
-    "static/js/3.22b6a46b.chunk.js.map": "/eCheckin/static/js/3.22b6a46b.chunk.js.map",
+    "static/js/2.be9ac3cf.chunk.js": "/eCheckin/static/js/2.be9ac3cf.chunk.js",
+    "static/js/2.be9ac3cf.chunk.js.map": "/eCheckin/static/js/2.be9ac3cf.chunk.js.map",
+    "static/js/3.a437f89b.chunk.js": "/eCheckin/static/js/3.a437f89b.chunk.js",
+    "static/js/3.a437f89b.chunk.js.map": "/eCheckin/static/js/3.a437f89b.chunk.js.map",
     "index.html": "/eCheckin/index.html",
     "static/css/2.3550b0aa.chunk.css.map": "/eCheckin/static/css/2.3550b0aa.chunk.css.map",
     "static/css/main.1be3d1f9.chunk.css.map": "/eCheckin/static/css/main.1be3d1f9.chunk.css.map",
-    "static/js/2.ccd0d6d9.chunk.js.LICENSE.txt": "/eCheckin/static/js/2.ccd0d6d9.chunk.js.LICENSE.txt",
+    "static/js/2.be9ac3cf.chunk.js.LICENSE.txt": "/eCheckin/static/js/2.be9ac3cf.chunk.js.LICENSE.txt",
     "static/media/blog-card-2.ed6623ec.png": "/eCheckin/static/media/blog-card-2.ed6623ec.png",
     "static/media/contact-header-img.edd636c6.png": "/eCheckin/static/media/contact-header-img.edd636c6.png",
     "static/media/header.4225aaaa.png": "/eCheckin/static/media/header.4225aaaa.png",
@@ -23,10 +23,10 @@
     "static/media/strategy-section-bg.5c79d8e4.png": "/eCheckin/static/media/strategy-section-bg.5c79d8e4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.45926f33.js",
+    "static/js/runtime-main.a1d6e31e.js",
     "static/css/2.3550b0aa.chunk.css",
-    "static/js/2.ccd0d6d9.chunk.js",
+    "static/js/2.be9ac3cf.chunk.js",
     "static/css/main.1be3d1f9.chunk.css",
-    "static/js/main.f7a1f391.chunk.js"
+    "static/js/main.456c6fb3.chunk.js"
   ]
 }
