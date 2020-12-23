@@ -6,7 +6,7 @@ const NavBar = () => {
     <Navbar collapseOnSelect expand="lg" className='navbar' sticky='top'>
       <Row className="navitem">
         <Col>
-          <Navbar.Brand href="/"><h1 className='navbrand'>code.</h1></Navbar.Brand>
+          <Navbar.Brand href="/"><h1 className='navbrand'>eCheckin</h1></Navbar.Brand>
         </Col>
         <Col>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -17,10 +17,9 @@ const NavBar = () => {
               <Nav.Link  href="#pricing"><h5 className="navtxt">Pricing</h5></Nav.Link>
               <Nav.Link  href="#pricing"><h5 className="navtxt">Clients</h5></Nav.Link>
               <Nav.Link  href="#pricing"><h5 className="navtxt">News</h5></Nav.Link>
-              <Nav.Link  href="#pricing"><h5 className="navtxt">Contact</h5></Nav.Link>
-              
+              <Nav.Link  href="#pricing"><h5 className="navtxt">Contact</h5></Nav.Link>              
             </Nav>
-            <Nav ><button className='btn-custom'  href="#pricing">Signup</button></Nav>
+            <Nav ><button className='btn-custom'  href="#pricing">Contact us</button></Nav>
           </Navbar.Collapse>
         </Col>
       </Row>

@@ -4,8 +4,12 @@ import "./App.css";
 import { Container } from "react-bootstrap";
 import HowItWorks from "./Pages/HowItWorks";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import createBrowserHistory from 'history/createBrowserHistory';
+
+
 
 const App = () => {
+  
   return (
     <Router basename={process.env.PUBLIC_URL}>
      <Switch>

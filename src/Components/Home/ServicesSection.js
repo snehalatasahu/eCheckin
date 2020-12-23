@@ -15,7 +15,7 @@ const ServicesSection = () => {
             </div> */}
             <Row className="container services-container">
                 <Col md={6} s={12} className="services-title-section">
-                    <p className="subtitle">Our services</p>
+                    <p className="subtitle">How it Works</p>
                     <h2 className="title">Solving Problems</h2>
                     <p className="title-text">This is a great section to introduce your company and showcase your featured services.</p>
                     <div className="services-accordion">
