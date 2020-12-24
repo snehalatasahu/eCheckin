@@ -1,3 +1,0 @@
-base = "echeckin/"
-publish = "echeckin/build/"
-command = "npm run build"
