@@ -13,12 +13,12 @@ const Header = () => {
                 </Col>
                 <Col md={6} s={12}>
                     <div className='headertext'>
-						<p className="subtitle">Multipurpose landing template</p>
-						<h1 className="bold-title">Beautifully simple, code.</h1>
-						<p className="title-text">Codelander is a beautifully simple, clean and lightweight landing page template for all types of businesses, with bold and bright colours.</p>
+						<p className="subtitle"></p>
+						<h1 className="bold-title">Contactless Visitor System</h1>
+						<p className="title-text">An innovative approach to make a great first impression, increase, effciency and ensure safety & security</p>
 						<div>
                         <Link to={'/howitworks'}>
-                        <button className='body-btn'>How it Works</button>
+                        <button className='body-btn'>Learn More</button>
                         </Link>
 						</div>
                     </div>
