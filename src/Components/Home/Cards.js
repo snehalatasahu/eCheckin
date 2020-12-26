@@ -4,7 +4,7 @@ import image from "../../Assets/blog-card-2.png";
 
 const Cards = () => {
   return (
-    <Container style={{padding:'30px', marginLeft:'150px'}}>
+    <Container style={{padding:'30px'}}>
                     <div style={{textAlign:'center'}}className="clients-title-section">
 						
 						<h2 className="title">Secure your Premises</h2>
@@ -16,7 +16,7 @@ what kind of premises you operate from.</p>
        
       
       <Col md={4} s={12}>
-      <Card bsPrefix='cards'>
+      <Card bsPrefix='cards' className="cards-centre">
         <Card.Img style={{padding:'30px'}}variant="top" src={image} />
         <Card.Body>
           <Card.Title className='subtitle'>APPROVAL BASED ENTRY</Card.Title>
@@ -28,8 +28,10 @@ what kind of premises you operate from.</p>
         </Card.Body>
       </Card>
       </Col>
+
+
       <Col md={4} s={12}>
-      <Card bsPrefix='cards'>
+      <Card bsPrefix='cards' className="cards-centre">
         <Card.Img style={{padding:'30px'}}variant="top" src={image} />
         <Card.Body>
           <Card.Title className='subtitle'>CLICK VISITOR PICTURES</Card.Title>
@@ -42,8 +44,9 @@ what kind of premises you operate from.</p>
       </Card>
       </Col>
 
+
       <Col md={4} s={12}>
-      <Card bsPrefix='cards'>
+      <Card bsPrefix='cards' className="cards-centre">
         <Card.Img style={{padding:'30px'}}variant="top" src={image} />
         <Card.Body>
           <Card.Title className='subtitle'>CHECK OUT</Card.Title>
@@ -55,6 +58,8 @@ what kind of premises you operate from.</p>
         </Card.Body>
       </Card>
       </Col>
+
+
 
       </Row>
     </Container>
