@@ -243,9 +243,14 @@ padding-left: 12%;
   .navbrand{
     font-size: 30px;
     font-weight: 900;
-    margin-right: 100px;
+    margin-right: 90px;
   }
 
+  .cards-centre{
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  
 }
 
 @media (max-width: 1100px) and (min-width: 701px) {
