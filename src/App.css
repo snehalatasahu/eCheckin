@@ -79,7 +79,7 @@ body{
 
 .navitem{
 
-padding-left: 15%;
+padding-left: 12%;
   
 }
 .navbrand{
@@ -90,23 +90,23 @@ padding-left: 15%;
 
 .navtxt{
   font-family: 'Poppins', sans-serif;
-  padding-left: 20px;
+  padding-left: 4px;
   margin-top: 25px;
   font-weight: 400;
   color:black;
-  width: 100px;
+  width: 150px;
   font-size: 20px;
   text-align: center;
 }
 
 .btn-custom{
-  margin-left: 50px;
+  margin-left: 10px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin-top: 20px;
   background-color: rgb(10, 130, 228);
   height: 50px;
-  width: 200px;
+  width: 180px;
   color: white;
   border-radius: 5em;
   border: none;
@@ -239,9 +239,6 @@ padding-left: 15%;
 
 
 
-/*@media (max-width: 767px) {
-  text-align: center;
-}*/
 @media (max-width: 900px) {
   .navbrand{
     font-size: 30px;
