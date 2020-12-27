@@ -8,7 +8,7 @@ import { GrInstagram } from "react-icons/gr";
 const Footer = () => {
     return (
         <Jumbotron bsPrefix="footer-section">
-            <Row className="footer-container">
+            <Row className="footer-container footer-text">
                 <Col lg={2} s={12}></Col>
                 <Col lg={2} s={12}>
                     <h1 style={{color: "white"}} className='title'>eCheckin</h1>
