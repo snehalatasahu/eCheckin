@@ -9,6 +9,39 @@ import strategy_3 from "../../Assets/strategy-3.png";
 import strategy_4 from "../../Assets/strategy-4.png";
 import logo from "../../Assets/logo3.png";
 
+const options = {
+    responsiveClass: true,
+    responsive: {
+        
+        400: {
+            items: 1,
+        },
+        500: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        700: {
+            items: 1,
+        },
+        800: {
+            items: 1,
+        },
+        900: {
+            items: 2,
+        },
+        1000: {
+            items: 3,
+
+        },
+        1100: {
+            items: 4,
+
+        }
+    },
+};
+
 const Carasoul = () => {
     return (
         <Container style={{padding:'30px'}}>
@@ -16,7 +49,12 @@ const Carasoul = () => {
 						<p className="subtitle">Our clients</p>
 						<h2 className="title">Client Showcase</h2>
 					</div>
-        <OwlCarousel className="owl-theme" items={4} margin={8} autoplay ={true}>
+        <OwlCarousel className="owl-theme"
+         {...options}
+         margin={8} 
+         autoplay ={true}
+         loop={true}>
+             
             <div className='owl-obj'><img src={logo}/></div>
             <div className='owl-obj'><img src={logo}/></div>
             <div className='owl-obj'><img src={logo}/></div>

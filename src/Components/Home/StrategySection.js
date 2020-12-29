@@ -13,7 +13,7 @@ const StrategySection = () => {
             {/* <img className="strategy-section-bg-graphics-section" src={strategy_section_bg} /> */}
             <Row className="container strategy-container">
 
-                <Col md={2} s={12}className="strategy-card-section">
+                <Col md={2} s={12}className="strategy-card-section strategy-col">
                     <div className="strategy-card">
                         <div className="strategy-card-icon-section">
                             <img src={strategy_1} />
@@ -23,7 +23,7 @@ const StrategySection = () => {
                     </div>
                 </Col>
 
-                <Col md={2} s={12}className="strategy-card-section">
+                <Col md={2} s={12}className="strategy-card-section strategy-col">
                     <div className="strategy-card">
                         <div className="strategy-card-icon-section">
                             <img src={strategy_2} />
@@ -33,7 +33,7 @@ const StrategySection = () => {
                     </div>
                 </Col>
 
-                <Col md={2} s={12}className="strategy-card-section">
+                <Col md={2} s={12}className="strategy-card-section strategy-col">
                     <div className="strategy-card">
                         <div className="strategy-card-icon-section">
                             <img src={strategy_3} />
@@ -43,7 +43,7 @@ const StrategySection = () => {
                     </div>
                 </Col>
                 
-                <Col md={2} s={12}className="strategy-card-section">
+                <Col md={2} s={12}className="strategy-card-section strategy-col">
                     <div className="strategy-card">
                         <div className="strategy-card-icon-section">
                             <img src={strategy_4} />
@@ -53,7 +53,7 @@ const StrategySection = () => {
                     </div>
                 </Col>
                 
-                <Col md={2} s={12}className="strategy-card-section">
+                <Col md={2} s={12}className="strategy-card-section strategy-col">
                     <div className="strategy-card">
                         <div className="strategy-card-icon-section">
                             <img src={strategy_1} />
