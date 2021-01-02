@@ -7,7 +7,10 @@ import strategy_1 from "../../Assets/strategy-1.png";
 import strategy_2 from "../../Assets/strategy-2.png";
 import strategy_3 from "../../Assets/strategy-3.png";
 import strategy_4 from "../../Assets/strategy-4.png";
-import logo from "../../Assets/logo3.png";
+import logo1 from "../../Assets/Lok-adalad.png";
+import logo2 from "../../Assets/csl-grey.png";
+import logo3 from "../../Assets/molog-grey.png";
+import logo4 from "../../Assets/logo3.png";
 
 const options = {
     responsiveClass: true,
@@ -51,19 +54,13 @@ const Carasoul = () => {
 					</div>
         <OwlCarousel className="owl-theme"
          {...options}
-         margin={8} 
          autoplay ={true}
          loop={true}>
              
-            <div className='owl-obj'><img src={logo}/></div>
-            <div className='owl-obj'><img src={logo}/></div>
-            <div className='owl-obj'><img src={logo}/></div>
-            <div className='owl-obj'><img src={logo}/></div>
-            <div className='owl-obj'><img src={logo}/></div>
-            <div className='owl-obj'><img src={logo}/></div>
-            <div className='owl-obj'><img src={logo}/></div>
-            <div className='owl-obj'><img src={logo}/></div>
-            <div className='owl-obj'><img src={logo}/></div>
+            <div className='owl-obj logo-1'><img src={logo1}/></div>
+            <div className='owl-obj logo-2'><img src={logo2}/></div>
+            <div className='owl-obj logo-3'><img src={logo3}/></div>
+            <div className='owl-obj logo-4'><img src={logo1}/></div>
         </OwlCarousel>
         </Container>
     );
