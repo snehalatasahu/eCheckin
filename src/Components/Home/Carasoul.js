@@ -7,7 +7,7 @@ import strategy_1 from "../../Assets/strategy-1.png";
 import strategy_2 from "../../Assets/strategy-2.png";
 import strategy_3 from "../../Assets/strategy-3.png";
 import strategy_4 from "../../Assets/strategy-4.png";
-import logo1 from "../../Assets/Lok-adalad.png";
+import logo1 from "../../Assets/court_logo.png";
 import logo2 from "../../Assets/csl-grey.png";
 import logo3 from "../../Assets/molog-grey.png";
 import logo4 from "../../Assets/logo3.png";
