@@ -39,7 +39,7 @@ const options = {
 
         },
         1100: {
-            items: 4,
+            items: 3,
 
         }
     },
@@ -51,17 +51,18 @@ const Carasoul = () => {
             <div style={{textAlign:'center'}}className="clients-title-section">
 						<p className="subtitle">Our clients</p>
 						<h2 className="title">Client Showcase</h2>
-					</div>
-        <OwlCarousel className="owl-theme"
-         {...options}
-         autoplay ={true}
-         loop={true}>
-             
-            <div className='owl-obj logo-1'><img src={logo1}/></div>
-            <div className='owl-obj logo-2'><img src={logo2}/></div>
-            <div className='owl-obj logo-3'><img src={logo3}/></div>
-            <div className='owl-obj logo-4'><img src={logo1}/></div>
-        </OwlCarousel>
+			</div>
+            <OwlCarousel className="owl-theme"
+            {...options}
+            autoplay ={true}
+            loop={true}>
+                
+                <div className='owl-obj logo-1'><img src={logo1}/></div>
+                <div className='owl-obj logo-2'><img src={logo2}/></div>
+                <div className='owl-obj logo-3'><img src={logo3}/></div>
+                {/*<div className='owl-obj logo-4'><img src={logo1}/></div>*/}
+                
+            </OwlCarousel>
         </Container>
     );
 };
