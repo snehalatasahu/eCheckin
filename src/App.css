@@ -254,12 +254,14 @@ padding-left: 8%;
 
 }
 
+
 .owl-obj
 {
   padding-top: 10px;
   padding-bottom: 10px;
   height: 200px;
   width: 180px;
+  margin-left: 80px;
 }
 .owl-obj img
 {
@@ -362,17 +364,21 @@ padding-left: 8%;
   margin-left: 50px;
 }
 
+.owl-obj
+{
+  margin-left: 80px;
+}
+
 .owl-obj img
 {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
   display: block;
-  margin-left: 80px;
 }
 
 .logo-1{
-  margin-top: 20px;
+  margin-top: 10px;
 }
 }
 
@@ -438,6 +444,15 @@ padding-left: 8%;
     max-height: 100%;
     margin: auto;
     display: block;
+  }
+
+  .owl-obj
+  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    width: 180px;
     margin-left: 150px;
   }
+
 }
